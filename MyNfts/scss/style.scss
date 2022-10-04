@@ -1,0 +1,25 @@
+// Connect fotns
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+// import reset style
+@import "_reset";
+
+
+//import css
+@import "_header";
+@import "_section";
+
+
+html{
+	font-family: 'Poppins', sans-serif;
+	font-size: 10px;
+}
+
+body{
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/bg_slider.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
